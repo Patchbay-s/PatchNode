@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an improvement for a service PatchNode already supports, or for the app.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a service PatchNode doesn't support yet, use the **New service** template instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: The problem or the need, before the solution. "When my backup fails, I want to…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How you imagine it in the app. Screenshots or sketches are welcome (with fabricated data).
+  - type: textarea
+    id: api
+    attributes:
+      label: API and rights involved
+      description: Optional. The endpoints or the permissions it would need, if you know them. PatchNode stays read-only by default; any action needs a confirmation.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to work on it (see CONTRIBUTING.md).

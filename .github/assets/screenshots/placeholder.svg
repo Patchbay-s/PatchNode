@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">PatchNode screenshot placeholder</title>
+  <desc id="desc">A placeholder image. Replace it with a PatchNode demo-mode screenshot after reviewing the capture guide.</desc>
+  <rect width="1800" height="1000" fill="#111827"/>
+  <rect x="36" y="36" width="1728" height="928" rx="32" fill="#1f2937" stroke="#374151" stroke-width="4"/>
+  <circle cx="900" cy="380" r="86" fill="#2563eb"/>
+  <path d="M845 380h110M900 325v110" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+  <text x="900" y="550" fill="#fff" font-family="system-ui,sans-serif" font-size="64" font-weight="700" text-anchor="middle">PatchNode</text>
+  <text x="900" y="630" fill="#d1d5db" font-family="system-ui,sans-serif" font-size="36" text-anchor="middle">Screenshot placeholder - see the capture guide</text>
+</svg>

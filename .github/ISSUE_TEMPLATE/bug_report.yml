@@ -1,0 +1,91 @@
+name: Bug report
+description: Something doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+        **Never paste a token, a password, a real IP address or a host name.** Replace them with fabricated values (`192.0.2.10`, `node.example.com`). Security problems go to [a private advisory](https://github.com/Patchbay-s/PatchNode/security/advisories/new), not here.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add a Proxmox VE service with a read-only token
+        2. Open the Proxmox tab
+        3. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service involved
+      options:
+        - None / the app in general
+        - Proxmox VE
+        - Proxmox Backup Server
+        - Docker (Portainer)
+        - Docker (socket proxy)
+        - Tailscale
+        - Grafana
+        - Prometheus
+        - Alertmanager
+        - Uptime Kuma
+        - CrowdSec
+        - Nginx Proxy Manager
+        - AdGuard Home
+        - Home Assistant
+        - Glances
+        - SSH / consoles / Docker Compose
+        - Widgets / Shortcuts / notifications
+    validations:
+      required: true
+  - type: input
+    id: service-version
+    attributes:
+      label: Version of that service
+      placeholder: "e.g. Proxmox VE 9.1, Portainer CE 2.27"
+  - type: input
+    id: app-version
+    attributes:
+      label: PatchNode version
+      description: Settings › About.
+      placeholder: "e.g. 1.2 (3), or a commit"
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Mac
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "e.g. iOS 27.0"
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Diagnostic
+      description: Optional. Settings › Diagnostic shows the last errors without any secret. Check it for addresses or names before pasting.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I removed every token, password, real address and host name from this report.
+          required: true

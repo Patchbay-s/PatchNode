@@ -1,0 +1,42 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+!PatchNode.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM/
+*.xcarchive/
+
+# macOS
+.DS_Store
+._*
+
+# Account-specific settings and secrets (never commit)
+Config/Local.xcconfig
+scripts/private-patterns.txt
+*.p8
+*.p12
+*.key
+*.pem
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+AuthKey_*
+.env
+.env.*
+.ssh/
+known_hosts
+id_ed25519
+id_ed25519.pub
+
+# Stray icon exports at the root
+/AppIcon*.png
+/logo*.jpeg

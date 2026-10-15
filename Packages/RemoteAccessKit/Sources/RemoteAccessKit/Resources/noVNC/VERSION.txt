@@ -1,0 +1,5 @@
+noVNC 1.7.0 (https://github.com/novnc/noVNC/releases/tag/v1.7.0)
+Source archive: https://github.com/novnc/noVNC/archive/refs/tags/v1.7.0.tar.gz
+SHA-256 of the archive: b1003a11b6e6e8d8f7f5e5586daae7f8ca651d8aee0aa155ff9ac841c48f52c6
+Embedded unmodified: core/ (MPL-2.0; core/des.js BSD-style), vendor/pako/lib/ (MIT).
+index.html and PatchNode.js are PatchNode's own bridge (not part of noVNC).

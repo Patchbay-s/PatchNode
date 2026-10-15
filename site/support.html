@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · PatchNode</title>
+<meta name="description" content="PatchNode — HomeLab monitor for iPhone">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="index.html"><img src="assets/patchnode-mark.png" alt="">PatchNode</a><nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html" aria-current="page">Support</a><a href="fr/support.html" hreflang="fr" lang="fr">Français</a><a href="es/support.html" hreflang="es" lang="es">Español</a><a href="de/support.html" hreflang="de" lang="de">Deutsch</a><a href="it/support.html" hreflang="it" lang="it">Italiano</a></nav></header>
+<main>
+<h1>Setup guides and support</h1>
+<p class="lead">The full guides, with copyable commands and troubleshooting, are built into the app: Settings › Help and support › Guides.</p>
+<h2>In summary</h2>
+<div class="card"><strong>Proxmox VE</strong><br>User and API token, role PVEAuditor on / for the user and the token (Privilege Separation = intersection), PatchNodePower role (VM.PowerMgmt) for actions, always together with PVEAuditor on paths below / (a deeper ACL replaces the inherited roles, so guests would vanish), reverse proxy with the https scheme.</div>
+<div class="card"><strong>Proxmox Backup Server</strong><br>Token user@realm!tokenid:secret (colon), role Audit on /.</div>
+<div class="card"><strong>Docker</strong><br>Portainer access token, or tecnativa/docker-socket-proxy without a published port, on the reverse proxy's Docker network, POST=0, behind an Access List with a password (Satisfy All). Never expose docker.sock.</div>
+<div class="card"><strong>Prometheus, Alertmanager</strong><br>No token: LAN/VPN only, optional Basic authentication through the reverse proxy.</div>
+<div class="card"><strong>Grafana</strong><br>Service account with the Viewer role and a token.</div>
+<div class="card"><strong>Uptime Kuma</strong><br>Create a status page and use its URL ending with /status/&lt;slug&gt;.</div>
+<div class="card"><strong>Tailscale</strong><br>Settings › Trust credentials › OAuth client with Devices › Core › Read; not the API keys.</div>
+<div class="card"><strong>CrowdSec</strong><br>cscli bouncers add patchnode; the Local API listens on 127.0.0.1 by default.</div>
+<div class="card"><strong>Nginx Proxy Manager</strong><br>Dedicated user with View Only on Proxy Hosts.</div>
+<div class="card"><strong>AdGuard Home</strong><br>Dedicated user in AdGuardHome.yaml (no read-only role: LAN/VPN only).</div>
+<div class="card"><strong>Home Assistant, Glances</strong><br>Long-lived token of a non-admin user; Glances in web server mode.</div>
+<h2>Frequently asked questions</h2>
+<details><summary>It works at home but not outside.</summary><p>PatchNode talks directly to your servers. Outside, your iPhone needs a VPN such as Tailscale or WireGuard, and your names must resolve through it (split DNS).</p></details>
+<details><summary>Why is HTTPS required?</summary><p>Your tokens travel with every request. Put your services behind a reverse proxy with a valid certificate (for example Let&#x27;s Encrypt with a DNS challenge).</p></details>
+<details><summary>A service says “paused”.</summary><p>After a refused token or a reverse proxy block, PatchNode stops asking so it never gets your IP banned by CrowdSec or fail2ban. Allow-list your LAN and VPN in your IPS.</p></details>
+<details><summary>I lost my iPhone, or a token may have leaked.</summary><p>Revoke the tokens on each server, then create new ones. PatchNode is locked by Face ID or your passcode, but a revoked token is the only certain protection. Prefer read-only tokens.</p></details>
+<details><summary>Do you receive any data?</summary><p>No. There is no account, analytics, or server of ours. PatchNode connects only to the servers you configure. Nothing is shared with us unless you choose to share it.</p></details>
+<details><summary>Can I try without a server?</summary><p>Yes: Settings › Demo shows a complete sample HomeLab generated on the iPhone.</p></details>
+<h2>Contact</h2>
+<p>For support, read the in-app guides or open <a href="https://github.com/Patchbay-s/PatchNode/issues">a GitHub issue</a>.</p>
+</main>
+<footer>PatchNode is independent and not affiliated with Proxmox, Docker, Tailscale, Grafana or any supported product. No cookies or analytics on this site.<br><a href="https://github.com/Patchbay-s/PatchNode">Source code</a> · <a href="https://github.com/Patchbay-s/PatchNode/blob/open-source-prep/LICENSE">License GPL-3.0</a></footer>
+</body>
+</html>

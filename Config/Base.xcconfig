@@ -1,0 +1,10 @@
+// Settings shared by every target and configuration (project level).
+//
+// Values tied to one developer account live in Local.xcconfig, which is not
+// committed: copy Local.xcconfig.example to Local.xcconfig and fill it in.
+// Without it the project still builds for the simulator; signing for a device
+// needs your own team.
+
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

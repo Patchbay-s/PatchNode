@@ -1,0 +1,50 @@
+PatchNode
+Copyright (C) 2026 Antxis77 and the PatchNode contributors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License (see LICENSE).
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+Additional permission under GNU GPL version 3 section 7 (app stores)
+--------------------------------------------------------------------
+
+As an additional permission under section 7 of the GNU GPL version 3, you may
+distribute this program, or works based on it, through Apple's App Store or
+similar app stores even though their terms of use add restrictions, provided
+the complete corresponding source code remains available under the GPL-3.0.
+
+This permission covers distribution through an app store only; it does not
+remove any other condition of the GPL-3.0. If you modify this program, you may
+extend this permission to your version, but you are not obliged to do so; if
+you do not, delete this permission statement from your version.
+
+
+Trademarks
+----------
+
+The GPL-3.0 covers the source code only. The name PatchNode, the name Patchbay's,
+the app icon and the brand visuals are not licensed under the GPL-3.0: see
+TRADEMARKS.md.
+
+
+Third-party components
+----------------------
+
+PatchNode bundles the following components, each under its own license. Their
+license texts ship with the app (Settings › About › Licenses) and are kept in
+the repository:
+
+- SwiftTerm (MIT) .......................... PatchNode/Licenses/
+- SwiftNIO, SwiftNIO SSH, Swift Crypto,
+  Swift ASN.1, Swift Atomics, Swift
+  Collections, Swift System (Apache-2.0) ... PatchNode/Licenses/
+- noVNC 1.7.0 core (MPL-2.0; core/crypto/
+  des.js under a BSD-style license) and its
+  vendored pako library (MIT) .............. Packages/RemoteAccessKit/Sources/RemoteAccessKit/Resources/noVNC/licenses/
+
+These licenses are compatible with the GPL-3.0.

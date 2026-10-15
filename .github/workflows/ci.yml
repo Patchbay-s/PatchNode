@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  swift:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Swift packages
+        run: |
+          set -euo pipefail
+          for package in Packages/*/; do
+            (cd "$package" && swift test)
+          done
+      - name: Build iOS app
+        run: >-
+          xcodebuild
+          -project PatchNode.xcodeproj
+          -scheme PatchNode
+          -destination 'generic/platform=iOS'
+          CODE_SIGNING_ALLOWED=NO
+          build
+      - name: Run project checks
+        run: |
+          scripts/check-pbxproj.sh
+          scripts/check-environment.sh
+          scripts/check-shipped-hosts.sh

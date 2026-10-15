@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; base-uri 'none'">
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+  #screen { position: absolute; inset: 0; }
+  #keyboard { position: absolute; left: -1000px; top: 0; width: 1px; height: 1px; opacity: 0; }
+</style>
+<script type="module" src="PatchNode.js"></script>
+</head>
+<body>
+<div id="screen"></div>
+<textarea id="keyboard" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-hidden="true"></textarea>
+</body>
+</html>

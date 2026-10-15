@@ -1,0 +1,8 @@
+# gitleaks configuration: the default rules, plus known false positives.
+# Run: gitleaks git --log-opts="--all" .
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Swift type names, not secrets"
+regexes = ['''Curve25519\.Signing\.PrivateKey''']

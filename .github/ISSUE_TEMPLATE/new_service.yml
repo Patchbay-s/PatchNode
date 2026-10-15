@@ -1,0 +1,54 @@
+name: New service
+description: Ask for a new type of service (network, NAS, media, monitoring…).
+labels: ["new service"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Each service type is a provider in its own Swift package. The more you can tell about its API, the faster it can be evaluated.
+  - type: input
+    id: name
+    attributes:
+      label: Service
+      placeholder: "e.g. TrueNAS SCALE"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Project website or repository
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should PatchNode show?
+      description: The few numbers or states you'd check from your phone. A dashboard card, a list, alerts?
+    validations:
+      required: true
+  - type: textarea
+    id: actions
+    attributes:
+      label: Actions (optional)
+      description: Actions that change a state are always confirmed and need a dedicated right. Leave empty for read-only.
+  - type: textarea
+    id: api
+    attributes:
+      label: API
+      description: Link to the API documentation, version, main endpoints. REST over HTTPS is required.
+    validations:
+      required: true
+  - type: textarea
+    id: auth
+    attributes:
+      label: Authentication and least privilege
+      description: How to authenticate (API token, OAuth client, basic auth…) and whether a read-only credential can be created.
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I can test it against a real instance.
+        - label: I'd like to implement it (see "Adding a new service type" in CONTRIBUTING.md).
