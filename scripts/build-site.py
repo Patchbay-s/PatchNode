@@ -7,7 +7,7 @@ root = repo / 'site'
 SUPPORT_URL = "https://github.com/Patchbay-s/PatchNode/issues"
 # PatchNode is free software (GPL-3.0): every page links to its source code.
 SOURCE_URL = "https://github.com/Patchbay-s/PatchNode"
-SOURCE_BRANCH = "open-source-prep"
+SOURCE_BRANCH = "main"
 
 LANGS = ['en', 'fr', 'es', 'de', 'it']
 NAMES = {'en': 'English', 'fr': 'Français', 'es': 'Español', 'de': 'Deutsch', 'it': 'Italiano'}
