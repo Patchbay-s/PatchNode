@@ -277,7 +277,7 @@ schema compatible with CloudKit; Keychain for every secret.
 
 ## Status and roadmap
 
-Current app version: **1.2** (build **3**). No GitHub release has been published yet; follow the [releases page](https://github.com/Patchbay-s/PatchNode/releases) for source releases.
+Current app version: **1.2** (build **3**). The [v1.2.0 source release](https://github.com/Patchbay-s/PatchNode/releases/tag/v1.2.0) is available on GitHub.
 
 PatchNode is actively maintained. Development and planned work are tracked in
 the [roadmap](docs/ROADMAP.md).
