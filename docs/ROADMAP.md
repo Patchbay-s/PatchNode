@@ -1,6 +1,6 @@
 # PatchNode — roadmap
 
-Last updated: 2026-10-15.
+Last updated: 2026-10-17.
 
 This public roadmap tracks product-level work only. Device and server names,
 addresses, credentials, and environment-specific test notes do not belong here.
@@ -16,6 +16,13 @@ Home, Home Assistant, and Glances.
 Other available features include widgets, shortcuts, local notifications,
 optional iCloud configuration sync, export and import, SSH and Proxmox
 consoles, Docker Compose management, and demo mode.
+
+## In preparation: 1.3
+
+- [x] New app icon.
+- [x] E-mail support (patchbay-s@proton.me) in the app, the website and the
+      privacy policy.
+- [ ] On-device checks (see [TESTS.md](TESTS.md)), then App Store submission.
 
 ## Next
 
