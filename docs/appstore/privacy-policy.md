@@ -1,6 +1,6 @@
 # PatchNode — Privacy Policy / Politique de confidentialité / Política de privacidad / Datenschutzrichtlinie / Informativa sulla privacy
 
-Last updated / Dernière mise à jour : 2026-10-11
+Last updated / Dernière mise à jour : 2026-10-17
 
 To publish at a public URL (App Store Connect › App Privacy › Privacy Policy URL)
 and in the app's Settings › About once `AppLinks.privacyPolicy` is set. The same
@@ -100,8 +100,8 @@ e-mails are used only to answer you and are deleted once the request is closed.
 
 **Children.** The app is not directed at children and collects no data from anyone.
 
-**Contact.** For any question about this policy: the support address on the support
-page (link on the App Store page) or Settings › Help and support in the app.
+**Contact.** For any question about this policy: patchbay-s@proton.me, also reachable
+from Settings › Help and support in the app.
 
 ---
 
@@ -204,8 +204,8 @@ uniquement à vous répondre et sont supprimés une fois la demande close.
 **Enfants.** L'app ne s'adresse pas aux enfants et ne collecte de données auprès de
 personne.
 
-**Contact.** Pour toute question sur cette politique : l'adresse du support sur la page
-d'assistance (lien de la fiche App Store) ou Réglages › Aide et support dans l'app.
+**Contact.** Pour toute question sur cette politique : patchbay-s@proton.me, aussi
+accessible depuis Réglages › Aide et support dans l'app.
 
 ---
 
@@ -308,9 +308,8 @@ responderte y se eliminan una vez cerrada la solicitud.
 
 **Menores.** La app no está dirigida a menores y no recopila datos de nadie.
 
-**Contacto.** Para cualquier pregunta sobre esta política: la dirección de soporte de
-la página de asistencia (enlace en la ficha de la App Store) o Ajustes › Ayuda y
-soporte en la app.
+**Contacto.** Para cualquier pregunta sobre esta política: patchbay-s@proton.me,
+también accesible desde Ajustes › Ayuda y soporte en la app.
 
 ---
 
@@ -415,8 +414,8 @@ dazu, dir zu antworten, und werden gelöscht, sobald die Anfrage abgeschlossen i
 
 **Kinder.** Die App richtet sich nicht an Kinder und erfasst von niemandem Daten.
 
-**Kontakt.** Für Fragen zu dieser Richtlinie: die Support-Adresse auf der Support-Seite
-(Link auf der App-Store-Seite) oder Einstellungen › Hilfe und Support in der App.
+**Kontakt.** Für Fragen zu dieser Richtlinie: patchbay-s@proton.me, auch erreichbar
+über Einstellungen › Hilfe und Support in der App.
 
 ---
 
@@ -516,6 +515,5 @@ risponderti e vengono eliminate una volta chiusa la richiesta.
 
 **Minori.** L’app non è rivolta ai minori e non raccoglie dati da nessuno.
 
-**Contatto.** Per qualsiasi domanda su questa politica: l’indirizzo del supporto nella
-pagina di assistenza (link nella scheda dell’App Store) o Impostazioni › Aiuto e
-assistenza nell’app.
+**Contatto.** Per qualsiasi domanda su questa politica: patchbay-s@proton.me,
+raggiungibile anche da Impostazioni › Aiuto e assistenza nell’app.

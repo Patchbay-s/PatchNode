@@ -10,8 +10,8 @@ diagnostic exports, or screenshots from a live installation to the repository.
 - [x] `scripts/check-pbxproj.sh`
 - [x] `scripts/check-environment.sh`
 - [x] `scripts/check-shipped-hosts.sh`
-- [ ] Run `swift test` in every package on the maintainer's Mac.
-- [ ] Build the app with Xcode on the maintainer's Mac:
+- [x] Run `swift test` in every package on the maintainer's Mac (1.3: 1,202 tests passed).
+- [x] Build the app with Xcode on the maintainer's Mac (1.3: no errors or warnings):
 
   ```sh
   xcodebuild -project PatchNode.xcodeproj -scheme PatchNode \
@@ -34,6 +34,9 @@ The app and Apple-platform tests were not built in the static audit environment.
 - [ ] Confirm export files and diagnostic sharing contain no credentials or
       real installation details.
 - [ ] Check the privacy and support links after GitHub Pages is published.
+- [ ] 1.3: Settings › Help and support › Contact support opens Mail addressed to
+      patchbay-s@proton.me, in each of the five languages.
+- [ ] 1.3: the new app icon shows on the Home Screen, in Settings and in widgets.
 
 ## Screenshot review
 

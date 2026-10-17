@@ -7,8 +7,8 @@ enum AppLinks {
     static let privacyPolicy: URL? = URL(string: "https://patchbay-s.github.io/PatchNode/privacy.html")
     /// Web support page.
     static let support: URL? = URL(string: "https://patchbay-s.github.io/PatchNode/support.html")
-    /// Direct e-mail support is disabled until a non-personal address is configured.
-    static let supportEmail: String? = nil
+    /// Publisher support address (Patchbay's), shared by all Patchbay's apps.
+    static let supportEmail: String? = "patchbay-s@proton.me"
     /// Optional WhatsApp link (https://wa.me/…); hidden when nil.
     static let whatsAppURL: URL? = nil
 }
