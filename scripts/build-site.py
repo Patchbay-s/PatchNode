@@ -5,6 +5,8 @@ import html, re, pathlib
 repo = pathlib.Path(__file__).resolve().parent.parent
 root = repo / 'site'
 SUPPORT_URL = "https://github.com/Patchbay-s/PatchNode/issues"
+SUPPORT_EMAIL = "patchbay-s@proton.me"
+MAIL = f'<a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>'
 # PatchNode is free software (GPL-3.0): every page links to its source code.
 SOURCE_URL = "https://github.com/Patchbay-s/PatchNode"
 SOURCE_BRANCH = "main"
@@ -148,9 +150,9 @@ guides = {
 }
 support_text = {
  'en': ('Support', 'Setup guides and support', 'The full guides, with copyable commands and troubleshooting, are built into the app: Settings › Help and support › Guides.', 'In summary', 'Frequently asked questions', 'Contact',
-        f'For support, read the in-app guides or open <a href="{SUPPORT_URL}">a GitHub issue</a>.'),
+        f'For support, read the in-app guides, write to {MAIL} or open <a href="{SUPPORT_URL}">a GitHub issue</a>.'),
  'fr': ('Assistance', 'Guides et assistance', 'Les guides complets, avec commandes copiables et dépannage, sont intégrés à l’app : Réglages › Aide et support › Guides.', 'En résumé', 'Questions fréquentes', 'Contact',
-        f'Pour obtenir de l’aide, consultez les guides de l’app ou ouvrez <a href="{SUPPORT_URL}">une issue GitHub</a>.'),
+        f'Pour obtenir de l’aide, consultez les guides de l’app, écrivez à {MAIL} ou ouvrez <a href="{SUPPORT_URL}">une issue GitHub</a>.'),
 }
 
 # Spanish, German and Italian (to be proofread by a native speaker).
@@ -249,11 +251,11 @@ guides.update({
 })
 support_text.update({
  'es': ('Soporte', 'Guías y soporte', 'Las guías completas, con comandos copiables y solución de problemas, están integradas en la app: Ajustes › Ayuda y soporte › Guías.', 'En resumen', 'Preguntas frecuentes', 'Contacto',
-        f'Para obtener ayuda, consulta las guías de la app o abre <a href="{SUPPORT_URL}">una incidencia en GitHub</a>.'),
+        f'Para obtener ayuda, consulta las guías de la app, escribe a {MAIL} o abre <a href="{SUPPORT_URL}">una incidencia en GitHub</a>.'),
  'de': ('Support', 'Anleitungen und Support', 'Die vollständigen Anleitungen mit kopierbaren Befehlen und Fehlerbehebung sind in die App integriert: Einstellungen › Hilfe und Support › Anleitungen.', 'Kurz gefasst', 'Häufige Fragen', 'Kontakt',
-        f'Für Hilfe lies die Anleitungen in der App oder eröffne <a href="{SUPPORT_URL}">ein GitHub-Issue</a>.'),
+        f'Für Hilfe lies die Anleitungen in der App, schreib an {MAIL} oder eröffne <a href="{SUPPORT_URL}">ein GitHub-Issue</a>.'),
  'it': ('Assistenza', 'Guide e assistenza', 'Le guide complete, con comandi copiabili e risoluzione dei problemi, sono integrate nell’app: Impostazioni › Aiuto e assistenza › Guide.', 'In sintesi', 'Domande frequenti', 'Contatto',
-        f'Per assistenza, consulta le guide nell’app o apri <a href="{SUPPORT_URL}">una segnalazione GitHub</a>.'),
+        f'Per assistenza, consulta le guide nell’app, scrivi a {MAIL} o apri <a href="{SUPPORT_URL}">una segnalazione GitHub</a>.'),
 })
 
 for lang in LANGS:

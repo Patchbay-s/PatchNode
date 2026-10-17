@@ -65,7 +65,15 @@ The built-in demo shows a complete sample HomeLab, generated on the device.
 
 PatchNode works with your own self-hosted services; you need network access to them (for example through Tailscale or WireGuard). PatchNode is an independent app, not affiliated with or endorsed by Proxmox Server Solutions, Docker, Portainer, Grafana Labs, Tailscale, CrowdSec, Home Assistant or any other product it supports.
 
-**What's New** (1.2):
+**What's New** (1.3):
+
+PatchNode 1.3: new icon and e-mail support.
+
+• New PatchNode icon.
+• Contact support by e-mail from Settings › Help and support (patchbay-s@proton.me). Your Mail app opens with a prefilled message; nothing is sent until you send it.
+• Support and privacy pages now live at patchbay-s.github.io/PatchNode.
+
+**What's New** (1.2, previous version):
 
 PatchNode 1.2: iPad, Mac, consoles, SSH and Compose.
 
@@ -144,7 +152,15 @@ La démo intégrée montre un HomeLab fictif complet, généré sur l'appareil.
 
 PatchNode fonctionne avec vos propres services autohébergés ; vous devez pouvoir y accéder (par exemple via Tailscale ou WireGuard). PatchNode est une app indépendante, sans lien avec Proxmox Server Solutions, Docker, Portainer, Grafana Labs, Tailscale, CrowdSec, Home Assistant ni aucun autre produit pris en charge, et non approuvée par eux.
 
-**Nouveautés** (1.2) :
+**Nouveautés** (1.3) :
+
+PatchNode 1.3 : nouvelle icône et support par e-mail.
+
+• Nouvelle icône PatchNode.
+• Contactez le support par e-mail depuis Réglages › Aide et support (patchbay-s@proton.me). Votre app Mail s’ouvre avec un message prérempli ; rien n’est envoyé sans votre accord.
+• Les pages d’assistance et de confidentialité sont désormais sur patchbay-s.github.io/PatchNode.
+
+**Nouveautés** (1.2, previous version) :
 
 PatchNode 1.2 : iPad, Mac, consoles, SSH et Compose.
 
@@ -223,7 +239,15 @@ La demo integrada muestra un HomeLab de ejemplo completo, generado en el disposi
 
 PatchNode funciona con tus propios servicios autoalojados; necesitas acceso de red a ellos (por ejemplo mediante Tailscale o WireGuard). PatchNode es una app independiente, sin afiliación ni respaldo de Proxmox Server Solutions, Docker, Portainer, Grafana Labs, Tailscale, CrowdSec, Home Assistant ni ningún otro producto compatible.
 
-**Novedades** (1.2):
+**Novedades** (1.3):
+
+PatchNode 1.3: nuevo icono y soporte por correo.
+
+• Nuevo icono de PatchNode.
+• Contacta con el soporte por correo desde Ajustes › Ayuda y soporte (patchbay-s@proton.me). Tu app Mail se abre con un mensaje ya rellenado; no se envía nada hasta que tú lo envíes.
+• Las páginas de soporte y privacidad están ahora en patchbay-s.github.io/PatchNode.
+
+**Novedades** (1.2, previous version):
 
 PatchNode 1.2: iPad, Mac, consolas, SSH y Compose.
 
@@ -302,7 +326,15 @@ Die integrierte Demo zeigt ein vollständiges Beispiel-HomeLab, das auf dem Ger�
 
 PatchNode arbeitet mit deinen eigenen selbst gehosteten Diensten; du brauchst Netzwerkzugriff auf sie (zum Beispiel über Tailscale oder WireGuard). PatchNode ist eine unabhängige App, weder verbunden mit noch unterstützt von Proxmox Server Solutions, Docker, Portainer, Grafana Labs, Tailscale, CrowdSec, Home Assistant oder einem anderen unterstützten Produkt.
 
-**Neuigkeiten** (1.2):
+**Neuigkeiten** (1.3):
+
+PatchNode 1.3: neues Symbol und Support per E-Mail.
+
+• Neues PatchNode-Symbol.
+• Kontaktiere den Support per E-Mail über Einstellungen › Hilfe und Support (patchbay-s@proton.me). Deine Mail-App öffnet sich mit einer vorausgefüllten Nachricht; nichts wird gesendet, bevor du es sendest.
+• Die Support- und Datenschutzseiten liegen jetzt unter patchbay-s.github.io/PatchNode.
+
+**Neuigkeiten** (1.2, previous version):
 
 PatchNode 1.2: iPad, Mac, Konsolen, SSH und Compose.
 
@@ -381,7 +413,15 @@ La demo integrata mostra un HomeLab di esempio completo, generato sul dispositiv
 
 PatchNode funziona con i tuoi servizi self-hosted; ti serve l’accesso di rete (per esempio tramite Tailscale o WireGuard). PatchNode è un’app indipendente, non affiliata né approvata da Proxmox Server Solutions, Docker, Portainer, Grafana Labs, Tailscale, CrowdSec, Home Assistant o qualsiasi altro prodotto supportato.
 
-**Novità** (1.2):
+**Novità** (1.3):
+
+PatchNode 1.3: nuova icona e assistenza via e-mail.
+
+• Nuova icona di PatchNode.
+• Contatta l’assistenza via e-mail da Impostazioni › Aiuto e assistenza (patchbay-s@proton.me). L’app Mail si apre con un messaggio precompilato; nulla viene inviato finché non lo invii tu.
+• Le pagine di assistenza e privacy sono ora su patchbay-s.github.io/PatchNode.
+
+**Novità** (1.2, previous version):
 
 PatchNode 1.2: iPad, Mac, console, SSH e Compose.
 
